@@ -1,3 +1,5 @@
+package me.tomasan7.jecnatimetabletogcalendar
+
 import kotlinx.coroutines.delay
 import me.tomasan7.jecnaapi.JecnaClient
 import java.awt.Desktop
