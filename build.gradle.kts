@@ -1,5 +1,6 @@
 plugins {
     kotlin("jvm") version "1.8.20"
+    id("com.github.johnrengelman.shadow") version "8.1.1"
     application
 }
 
@@ -13,10 +14,6 @@ repositories {
 
 dependencies {
     implementation("com.github.Tomasan7.JecnaAPI:jecnaapi:3.2.1")
-
-    /*val ktorVersion = "2.3.0"
-    implementation("io.ktor:ktor-client-core:$ktorVersion")
-    implementation("io.ktor:ktor-client-cio:$ktorVersion")*/
 }
 
 kotlin {
@@ -24,5 +21,5 @@ kotlin {
 }
 
 application {
-    mainClass.set("MainKt")
+    mainClass.set("me.tomasan7.jecnatimetabletogcalendar.MainKt")
 }
